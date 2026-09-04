@@ -1,0 +1,36 @@
+
+
+body{
+  background-color: darkslateblue;
+  text-align: center;
+  color: white;
+  padding: px;
+
+}
+
+
+h1 {
+  color: blue;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  padding: 30px;
+}
+
+h2 {
+  text-decoration: underline;
+  text-underline-position: auto;
+}
+
+
+p {
+  text-align: left;
+   margin: 25px 50px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
