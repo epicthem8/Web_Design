@@ -1,8 +1,7 @@
 ## This is my root repository for my Intro to Web Design course. You can find my assignment folders inside. 
 ### Thanks for visiting.
-# Assignment1
-for this assignment was mostly getting back into coding and trying to figure out to who to do different things as well as having a idea of what I wanted and trying to make make to code fit to do that. 
-# Assignment2
-Mostly had everything for this assignment in the page already but added founts and a footer and some list that don't do much at the moment 
-
+# Assignment3
+for assignment 3 did learn some very useful set of code to help make section to help change and organize specific div ! as well as some other small stuff that help with organization like br and em. 
+used div to organize specific section to make them look the same and could more easily chang them in the css to be the same format. 
+i most just want to see what more tools there are in css that i dont know with yet 
 
