@@ -5,7 +5,7 @@ body{
   text-align: center;
   color: white;
   margin: 0;
-    background-image:url(../images/coolbackgrounds-fractalize-ember_spark.png);
+  background-image:url(../images/coolbackgrounds-fractalize-ember_spark.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -211,15 +211,15 @@ p {
   justify-content: center;
   max-width: 1000px; 
   margin: 0 auto;
-  row-gap: 10px; /* vertical spacing */
-  column-gap: 10px; /* horizontal spacing */
+  row-gap: 10px;
+  column-gap: 10px;
   border: solid black;
   border-radius: 25px;
   background-color: rgba(0, 255, 255, 0.40);
 }
 
 #gallery img {
-  width: calc(40%); /* three images per row */
+  width: calc(40%);
   height: auto;
   padding: 10px;
   border: solid black;
@@ -231,9 +231,8 @@ p {
 
 
 img {
-  max-width: 100%;
+  max-width: 120%;
   height: auto;
-  padding: 20px;
 }
 
 
