@@ -21,7 +21,7 @@ a{
 
 
 h1 {
-  color: blue;
+  color: rgb(0, 0, 155);
   font-family: "Merienda", cursive;
   font-optical-sizing: auto;
   font-weight: 900 ;
@@ -38,12 +38,22 @@ h1 {
 }
 
 h2 {
-  font-family: 'Lucida Handwriting', cursive;
+  font-family: "Merienda", cursive;
   font-size: 50;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000
 }
 
 h3{
   font-size: 40;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000
 }
 
 h4{
@@ -69,7 +79,8 @@ p {
 }
 
 .game{
-  border-style: dashed ;
+  border-style: solid ;
+  border-color: black;
   border-width: 5px;
   margin: 40;
   border-radius: 25px;
@@ -81,11 +92,11 @@ p {
  display: inline-block;
  max-width: 25%;
  height: auto;
- background-color: #c9d4d1;
+ background-color: rgba(0, 255, 255, 0.40);
  padding: 10px;
  padding-bottom: 20px;
  margin: 1%;
- font-family: Tahoma, sans-serif;
+ font-size: 25;
  color: black;
  border-style: dashed;
  border-color: black;
@@ -94,7 +105,7 @@ p {
 
 .game-card h3 {
  text-align: center;
- font-size: 20px;
+ font-size: 25px;
  max-width: 250;
 }
 
@@ -118,6 +129,7 @@ p {
  padding-left: 5%;
  text-align: left;
  border: 0;
+ font-size: 24px;
 }
 
 .game-card-group {
@@ -125,7 +137,7 @@ p {
 }
 
 .Suggestions{
-  background-color:rgba(88, 69, 255, 0.747);
+  background-color:rgba(0, 255, 255, 0.40);
   padding: 10px;
   border: 5px solid;
   border-color: rgb(0, 0, 0);
@@ -135,6 +147,11 @@ p {
   font-family: "Merienda", cursive;
   font-optical-sizing: auto;
   text-align: left;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000
 }
 
 .Suggestions fieldset {
@@ -175,7 +192,7 @@ p {
 .Suggestions button[type="submit"] {
   display: block;
   margin: 20px auto 0;
-  background-color:blue;
+  background-color:rgb(0, 0, 155);
   color: white;
   padding: 10px 20px;
   font-size: 1rem;
@@ -240,7 +257,7 @@ img {
 
 
 footer{
-  background-color: rgba(25, 0, 255, 0.658);
+  background-color: rgba(0, 0, 155, 0.493);
   padding: 10px;
   margin: 0 ; 
 }
