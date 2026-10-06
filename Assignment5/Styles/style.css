@@ -34,6 +34,7 @@ h1 {
   padding: 5px;
   font-size: 100;
   margin: 10;
+  
 
 }
 
@@ -91,7 +92,7 @@ p {
 .game-card {
  display: inline-block;
  max-width: 25%;
- height: auto;
+ height: 450;
  background-color: rgba(0, 255, 255, 0.40);
  padding: 10px;
  padding-bottom: 20px;
@@ -260,4 +261,15 @@ footer{
   background-color: rgba(0, 0, 155, 0.493);
   padding: 10px;
   margin: 0 ; 
+}
+
+
+@media (max-width: 600px) {
+#gallery img {
+width: calc(75%);
+padding: 5;
+border-radius: 20px;} 
+
+.game-card {  width: fit-content;
+height: auto;}
 }
