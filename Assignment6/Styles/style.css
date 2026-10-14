@@ -10,9 +10,16 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 a{  
-  font-family: merienda;
+  margin: 0 auto;
+  font-family: "Merienda", cursive;
   font-size: 28px;
   padding: 40px ;
   color: black;
@@ -34,7 +41,6 @@ h1 {
   padding: 5px;
   font-size: 100px;
   margin: 10px;
-  
 
 }
 
@@ -59,18 +65,39 @@ h4{
 
 
 p {
-  text-align: left;
-  margin: 25px 50px;
-  background-color: rgba(87, 69, 255, 0.37);
+  text-align: center;
+  margin: 25px auto;
+  background-color: rgba(87, 69, 255, 0.50);
   border-style: solid;
   border-width: 5px;
   border-color: rgb(0, 0, 0);
   border-radius: 20px;
   padding: 20;
   font-size: 20;
+  max-width: 66%;
   
 }
+.search-bar{
+  background-color: rgba(87, 69, 255, 0.50);
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 20;
+}
 
+.header h2{
+  border-style: solid ;
+  border-color: black;
+  border-width: 5px;
+  margin: 40px auto;
+  border-radius: 25px;
+  background-color:  rgba(87, 69, 255, 0.50);
+  padding: 20px;
+  font-size: 20;
+  text-shadow: none;
+  max-width: 66%;
+}
 .game{
   border-style: solid ;
   border-color: black;
@@ -78,7 +105,7 @@ p {
   margin: 40px auto;
   border-radius: 25px;
   background-color:  rgba(0, 255, 255, 0.40);
-  max-width: 900;
+  max-width: 900px;
 
 }
 
