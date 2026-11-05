@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: black;
   text-align: center;
   color: rgb(0, 0, 0);
   margin: 0;
@@ -14,7 +14,7 @@ h1{
   justify-content: space-between; 
   align-items: center;            
   padding: 15px 30px;
-  background-color: #666666;
+  background-color: #8a8888;
   color: white;
   font-size: 45px;
   border: 3px solid black;
@@ -40,7 +40,7 @@ a:hover{
 p {
   text-align: center;
   margin: 25px auto;
-  background-color: rgba(105, 105, 105, 0.5);
+  background-color: #8a8888;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(0, 0, 0);
@@ -73,6 +73,7 @@ p {
 
 .cardtext h3 {
   border: 2px solid black;
+  background: #8a8888;
   text-align: center;
   font-size: 35px;
   max-width: px;
@@ -83,14 +84,51 @@ p {
   width: 30%;
   max-width: 200px;
   border: 2px solid black;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(85, 85, 85);
+    max-width: 95%;
+    margin: 20px auto;
+    border: 2px solid black;
+
+    }
+    .header {
+        grid-column: span 3;
+        
+    } 
+    .sidebar{
+      background-color: #8a8888;
+      border: 2px solid black;
+    }
+    .main {
+        grid-column: span 2;
+    }
+    .footer {
+        grid-column: span 3;
+    }
+
+.contact {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: #8a8888;
+  
+}
+
+.contact th{
+  font-size: 25px;
 
 }
 
 
-
-
 footer{
-  background-color: rgba(0, 0, 155, 0.493);
+  background-color: #8a8888;
   padding: 10px;
   margin: 0 ; 
 }
